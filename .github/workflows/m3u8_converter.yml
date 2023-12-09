@@ -545,7 +545,6 @@ jobs:
       - name: Create Workflow Artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
         with:
-         name: workflow_${{ steps.date.outputs.date }}
          path: .github/workflows/m3u8_converter.yml
        
        
@@ -565,5 +564,4 @@ jobs:
       - name: Push Final Changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.scrapper_token }}
           branch: ${{ github.ref }}
