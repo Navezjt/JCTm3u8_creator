@@ -482,7 +482,6 @@ jobs:
       - name: Push all changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.scrapper_token }}
           branch: ${{ github.ref }} 
              
       - name: Copy Static m3u8s
@@ -552,7 +551,6 @@ jobs:
       - name: Push all changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.scrapper_token }}
           branch: ${{ github.ref }} 
           
       - name: Commit All Files
