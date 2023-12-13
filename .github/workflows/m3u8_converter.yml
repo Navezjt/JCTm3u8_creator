@@ -39,7 +39,7 @@ jobs:
         with:
           files: "./CompiledallStreams.m3u, ./epg/epg_ripper_ALL_SOURCES1.xml.gz"
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: If *.M3U8 Files exists - Then Cleanup
         if: steps.check_files.outputs.files_exists == 'true'
         # Only runs if all of the files exists
