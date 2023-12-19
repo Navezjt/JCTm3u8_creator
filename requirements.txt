@@ -37,7 +37,7 @@ snowballstemmer==2.1.0
 stevedore==3.3.0
 toml==0.10.2
 typing-extensions==3.10.0.0
-urllib3==1.26.5
+urllib3==1.26.18
 wrapt==1.12.1
 m3u8
 termcolor
