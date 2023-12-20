@@ -314,7 +314,7 @@ It would really help if they had a playlist that didnt have all that section, eg
     
 <br>
     if it still causes issue's, I may have to remove the Free2View completly.
-
+- https://github.com/bharing19/bitsbb01_m3u8_creator
 
     
 
